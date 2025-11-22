@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://hyakugei.github.io/LoFiNet-Blog/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://lofinet.org/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://hyakugei.github.io/LoFiNet-Blog/</loc>
+<loc>https://lofinet.org/</loc>
 </url>
 <url>
-<loc>https://hyakugei.github.io/LoFiNet-Blog/blocked.html</loc>
+<loc>https://lofinet.org/blocked.html</loc>
 <lastmod>2025-11-20T22:30:48-05:00</lastmod>
 </url>
 <url>
-<loc>https://hyakugei.github.io/LoFiNet-Blog/code-and-death.html</loc>
+<loc>https://lofinet.org/code-and-death.html</loc>
 <lastmod>2025-11-22T15:38:27-05:00</lastmod>
 <image:image>
-<image:loc>https://hyakugei.github.io/LoFiNet-Blog/media/posts/5/2025-11-22_15-30.gif</image:loc>
+<image:loc>https://lofinet.org/media/posts/5/2025-11-22_15-30.gif</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://hyakugei.github.io/LoFiNet-Blog/combat-ish.html</loc>
+<loc>https://lofinet.org/combat-ish.html</loc>
 <lastmod>2025-11-19T21:53:15-05:00</lastmod>
 <image:image>
-<image:loc>https://hyakugei.github.io/LoFiNet-Blog/media/posts/3/2025-11-19_21-41.gif</image:loc>
+<image:loc>https://lofinet.org/media/posts/3/2025-11-19_21-41.gif</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://hyakugei.github.io/LoFiNet-Blog/media/posts/3/2025-11-19_21-45.gif</image:loc>
+<image:loc>https://lofinet.org/media/posts/3/2025-11-19_21-45.gif</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://hyakugei.github.io/LoFiNet-Blog/obligitory-first-post.html</loc>
+<loc>https://lofinet.org/obligitory-first-post.html</loc>
 <lastmod>2025-11-19T10:16:45-05:00</lastmod>
 <image:image>
-<image:loc>https://hyakugei.github.io/LoFiNet-Blog/media/posts/2/ShortClip_480.gif</image:loc>
+<image:loc>https://lofinet.org/media/posts/2/ShortClip_480.gif</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
