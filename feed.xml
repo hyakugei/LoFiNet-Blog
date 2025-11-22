@@ -3,12 +3,34 @@
     <title>LofFiNet</title>
     <link href="https://hyakugei.github.io/LoFiNet-Blog/feed.xml" rel="self" />
     <link href="https://hyakugei.github.io/LoFiNet-Blog" />
-    <updated>2025-11-19T21:53:15-05:00</updated>
+    <updated>2025-11-20T22:30:48-05:00</updated>
     <author>
         <name>Jos</name>
     </author>
     <id>https://hyakugei.github.io/LoFiNet-Blog</id>
 
+    <entry>
+        <title>Blocked</title>
+        <author>
+            <name>Jos</name>
+        </author>
+        <link href="https://hyakugei.github.io/LoFiNet-Blog/blocked.html"/>
+        <id>https://hyakugei.github.io/LoFiNet-Blog/blocked.html</id>
+
+        <updated>2025-11-20T22:30:48-05:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Just fooling around trying to get the github pages and the custom url/dns to all play nice together, so i can publish this blog. I added some logic that checks when you are hit, if you are facing the entity that hit you, and if&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Just fooling around trying to get the github pages and the custom url/dns to all play nice together, so i can publish this blog. </p>
+<p>I added some logic that checks when you are hit, if you are facing the entity that hit you, and if you are holding down the BLOCK input. If so, then you would have... blocked... the attack? Right now it just puts out a different debug log. But that is, now, a fully "functioning" combat system! Sorta. With no HP. Or reactions. </p>
+<p>Oh, i also made the players/entities non-interactive, from the POV of their own colliders/physics, so you can now just pass-though another entity. Eventually there will be non-player entities which will block you, but for now, this is how i want it. </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Combat-ish</title>
         <author>
