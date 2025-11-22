@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://hyakugei.github.io/LoFiNet-Blog/code-and-death.html",
+            "url": "https://hyakugei.github.io/LoFiNet-Blog/code-and-death.html",
+            "title": "Code and Death",
+            "summary": "Working on some basic \"next steps\" for the combat system. When implementing the stagger stuff i had to revisit the frame animation system i wrote for this game (more details later). Specifically i had to add a .durationMultiplier, so i could simply extend the basic&hellip;",
+            "content_html": "<p>Working on some basic \"next steps\" for the combat system. </p>\n<ol>\n<li>Action Lock and Rotation Lock while attacking</li>\n<li>Attack Cooldowns</li>\n<li>Mini-Stagger when hit (action lock, slowed movement)</li>\n<li>HP &amp; Death</li>\n</ol>\n<p>When implementing the stagger stuff i had to revisit the frame animation system i wrote for this game (more details later). Specifically i had to add a <code>.durationMultiplier</code>, so i could simply extend the basic animations, and slow them down... Or i guess also speed them up. Anyway, that took a bit of futzing to get working corretly, now needing the frame accumulator to work with floats rather then the simple ints. Sigh. Stagger is kind of complicated because I also want any \"in progress\" actions (attacks, jump, roll, etc) to finish out before applying the stagger effects. </p>\n<p>Finally added HP and damage values (very basic, <code>JabDamage</code> and <code>SlashDamage</code>just to get something in there quick). And the <strong>Death</strong> state/animation. Sweet. </p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://hyakugei.github.io/LoFiNet-Blog/media/posts/5/2025-11-22_15-30.gif\" alt=\"\" width=\"270\" height=\"196\"></figure>",
+            "author": {
+                "name": "Jos"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-11-22T15:38:27-05:00",
+            "date_modified": "2025-11-22T15:38:27-05:00"
+        },
+        {
             "id": "https://hyakugei.github.io/LoFiNet-Blog/blocked.html",
             "url": "https://hyakugei.github.io/LoFiNet-Blog/blocked.html",
             "title": "Blocked",
