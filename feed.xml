@@ -3,12 +3,35 @@
     <title>LofFiNet</title>
     <link href="https://lofinet.org/feed.xml" rel="self" />
     <link href="https://lofinet.org" />
-    <updated>2025-11-22T15:38:27-05:00</updated>
+    <updated>2025-11-24T08:26:25-05:00</updated>
     <author>
         <name>Jos</name>
     </author>
     <id>https://lofinet.org</id>
 
+    <entry>
+        <title>Who What Where</title>
+        <author>
+            <name>Jos</name>
+        </author>
+        <link href="https://lofinet.org/who-what-where.html"/>
+        <id>https://lofinet.org/who-what-where.html</id>
+
+        <updated>2025-11-23T22:25:00-05:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Ok, so i've been having fun getting the combat stuff in and working locally, now i have to get it working over the network, before i progress with any more updates. I just have to add the missing message handlers in the Server and Client,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Ok, so i've been having fun getting the combat stuff in and working locally, now i have to get it working over the network, before i progress with any more updates. I just have to add the missing message handlers in the Server and Client, should be pretty easy.</p>
+<p><em>LATER </em></p>
+<p>Yep, updated the client/server stuff to push/receive the missing messages. Got all the actions moving over the network now. Still not sure about who/how/what is authoritative for, well, anything i guess... Especially as i start to get into stuff that is not all computed or required on the client... I think the next thing i'm working on is block-stagger for the attacker... Again, before i move things to the server, maybe i'm going to keep them client auth, and just move who is responsible for what around. So, getting hit an applying HP reduction will be client-auth on the client that got hit. Same for block-stagger... for now, just because the messages and complexity (in my head anyway) of getting all that onto the server is too much... </p>
+<p>I am also going to have to refactor the whole "id" thing, as its tied to just the network connection. I need a more robust id system, so messages can be routed to any "entity" in a level. That is going to be a big-ish change, and require some new systems... </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Code and Death</title>
         <author>
