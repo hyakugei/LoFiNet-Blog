@@ -6,4 +6,4 @@ User-agent: CCBot
 Disallow: /
 User-agent: *
 Disallow:
-Sitemap: https://lofinet.org/sitemap.xml
+Sitemap: https://dev.lofinet.org/sitemap.xml
