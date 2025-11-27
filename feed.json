@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://dev.lofinet.org/bars-i-hate-bars.html",
+            "url": "https://dev.lofinet.org/bars-i-hate-bars.html",
+            "title": "Bars... I hate bars...",
+            "summary": "Ok, added bad and ugly HP bars. Pushing absolute hp values over the network to keep them updated, but am also applying damage locally, just that gets overridden by the authority, when the next update comes in. Seems to work well. Well enough. Hate HP&hellip;",
+            "content_html": "<p>Ok, added bad and ugly HP bars. Pushing absolute hp values over the network to keep them updated, but am also applying damage locally, just that gets overridden by the authority, when the next update comes in. Seems to work well. Well enough. Hate HP bars. </p><p>Updated the INPUT MAP, to get all the controls setup on the controller, and on keyboard – probably still have some work to do on the keyboard mappings… WASD for movement… JKIL for Jab, Slash, Roll and Block? Leaving out WALK and CRAWL for now. </p><p>Thinking about <strong>ready</strong> vs. <strong>unready</strong>, and have come to <strong>equipped</strong> vs. <strong>un-equipped</strong>. If you put away your weapon, you get some movement speed bonus, but it takes like 1/4 second to equip before you can do combat actions. I kinda like it, except for yet <em>another</em> button. And the questions of auto-equip, if you tap an attack while un-equipped. Will have to test it, might be an option kinda thing. </p><p>Got the Roll and Block to have some cooldowns, and Block a minimum hold. Also Roll has “invulnerability” for the middle of it. Still really need to work on the whole “recovery” idea, at the end of actions, i dont have that working. </p><p>Doing some insane work on the <a href=\"https://assetstore.unity.com/packages/2d/characters/pixel-hero-maker-megapack-271664\">sprite package</a>, trying to rewrite the <code>CharacterBuilder</code>, to create new synthetic animation from collections of existing animation states/frames. I hadn’t realized that the Jab and Slash animations are “static”, with no leg movement. I really want them to have some, so i’m working on the code to <em>smoosh</em> those two animations together. No idea how its going to work. </p><p>… Works pretty good … Probably would not have attempted this if not for Cursor helping out. Have the state machine playing the static one if not moving, the moving one otherwise. Not perfect, but pretty good! </p><figure class=\"post__image\"><img loading=\"lazy\" src=\"./media/files/2025-11-26_21-39.gif\" alt=\"\" data-is-external-image=\"true\"></figure>\n<figure class=\"post__image\"><img loading=\"lazy\" src=\"./media/files/2025-11-26_21-48.gif\" alt=\"\" data-is-external-image=\"true\"></figure>",
+            "author": {
+                "name": "Jos"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-11-26T21:55:29-05:00",
+            "date_modified": "2025-11-26T21:58:18-05:00"
+        },
+        {
             "id": "https://dev.lofinet.org/a-plan.html",
             "url": "https://dev.lofinet.org/a-plan.html",
             "title": "A Plan",
