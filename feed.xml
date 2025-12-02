@@ -3,12 +3,32 @@
     <title>LofFiNet</title>
     <link href="https://dev.lofinet.org/feed.xml" rel="self" />
     <link href="https://dev.lofinet.org" />
-    <updated>2025-11-26T21:58:18-05:00</updated>
+    <updated>2025-12-02T08:31:29-05:00</updated>
     <author>
         <name>Jos</name>
     </author>
     <id>https://dev.lofinet.org</id>
 
+    <entry>
+        <title>Whiff</title>
+        <author>
+            <name>Jos</name>
+        </author>
+        <link href="https://dev.lofinet.org/whiff.html"/>
+        <id>https://dev.lofinet.org/whiff.html</id>
+
+        <updated>2025-12-01T20:28:00-05:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    So no play-test this past weekend, just didn’t have time to get all the things done that i wanted to have done. Which is fine. I’m still thinking about the code and how the ACTION SYSTEM is going to work, and what data i need&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>So no play-test this past weekend, just didn’t have time to get all the things done that i wanted to have done. Which is <em>fine</em>. I’m still thinking about the code and how the ACTION SYSTEM is going to work, and what data i need to be incorporating into it. Also the audio, i am going to get some more basic audio in (for the attacks, hits and misses), because the payoff is very outsized to the time “spend”. </p><p>Still watching, reading and thinking about PvP combat design, trying to nail down what that “minimum set” of values that can provide a rich enough probability space to explore… My animations are extremely fixed, in that JAB has 3 frames, and SLASH 4, but i can control their duration, and then also all the other “action” durations (Anticipation, Action, Recover), and which things happen when during those phases (Cancellable, what other actions are available, movement speed and type, damage penalty, invulnerable, ???).</p><p>Also the data for the different weapons, how i’m going to group them, and what those groupings mean wrt those different settings. </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Bars... I hate bars...</title>
         <author>
